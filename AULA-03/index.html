@@ -15,7 +15,7 @@
           <label for="nome">Nome</label>
           <input type="text" id="nome" placeholder="Nome Completo" required/>
           <label for="idade">Idade</label>
-          <input type="number" id="idade" placeholder="Idade" />
+          <input type="number" min="18" id="idade" placeholder="Idade" />
           <label for="telefone">Telefone</label>
           <input type="tel" id="telefone" placeholder="Telefone" required/>
 
@@ -77,13 +77,10 @@
               
           </div>
 
-          <label for="cor-favorita">Cor Favortita: <select name="cor_favorita" id="cor-favorita">
-            <option value="vermelho">Vermelho</option>
-            <option value="azul">Azul</option>
-            <option value="amarelo">Amarelo</option>
-            <option value="verde">Verde</option>
+          <label for="cor-favorita">Cor Favortita: <input type="color" id="seletor-de-cor" name="seletor-de-cor"></label>
 
-          </select></label>
+         
+
           
         </fieldset>
         <div class="buttons-form">
