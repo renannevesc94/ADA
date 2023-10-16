@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --backround-color: rgb(252, 252, 252);
+    --azul-escuro: rgb(18, 92, 203);
+    --azul-claro: rgb(94, 163, 232);
+    --vermelho: rgb(233, 47, 47);
+    --border-input: #939292;
+
+}
+body{
+    background-image: linear-gradient(90deg, var(--azul-escuro)10%, var(--azul-claro)90%);
+}
+h2{
+    text-align: center;
+    margin-bottom: 4vh;
+    color: var(--border-input);
+}
+.myForm {
+    width: 30vw;
+    min-width: 400px;
+    margin: auto;
+    background-color: var(--backround-color);
+    border-radius: 10px;
+    margin-top: 3vh;
+    padding: 30px;
+
+
+}
+fieldset {
+    border: none;
+}
+
+label{
+    margin-top: 10px;
+    font-weight: 400;
+    display: block;
+}
+
+#nome, #telefone, #genero, #idade, #cor-favorita{
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    height: 38px;
+    border: solid 2px var(--border-input)
+}
+
+#data-nascimento{
+    border-radius: 6px;
+    border: solid 2px var(--border-input);
+    width: 50%;
+    height: 38px;
+    cursor: pointer;
+}
+
+#hora-atendimento {
+    border-radius: 6px;
+    width: 30%;
+    height: 30px;
+    border: solid 2px var(--border-input);
+}
+
+.hobbies{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: center;
+    
+}
+
+.field-hobbies{
+    margin-top: 16px;
+}
+
+.hobbies label {
+    display: inline-block;
+    margin-left: 7px;
+    cursor: pointer;
+
+}
+
+.buttons-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttons-form button{
+    width: 50%;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.buttons-form button[type="submit"]{
+    background-color: var(--azul-escuro);
+    color: var(--backround-color);
+    font-weight: bold;
+}
+
+.buttons-form button[type="reset"]{
+    background-color: var(--vermelho);
+    color: var(--backround-color);
+    font-weight: bold;
+}
