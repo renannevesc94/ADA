@@ -1,7 +1,7 @@
 
 .aside-lateral{
     width: 30vw;
-    height: 70vh;
+    height: 80vh;
 
 }
 
@@ -14,4 +14,7 @@
 main{
     width: 60vw;
     margin-left: 50px;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 18px;
 }
