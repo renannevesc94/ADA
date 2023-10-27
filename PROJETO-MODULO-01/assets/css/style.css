@@ -99,7 +99,7 @@
 
   footer{
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
     background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
@@ -108,8 +108,8 @@
   }
   
   footer img{
-    width: 15%;
-    height: 50%;
+    width: 100px;
+    height: 47px;
     
 
   }
@@ -177,7 +177,7 @@
  
   footer{
     width: 100vw;
-    height: 15vh;
+    height: 20vh;
     background-color: var(--primary-color);
     justify-content: center;
     align-items: center;
