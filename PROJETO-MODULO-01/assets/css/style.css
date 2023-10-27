@@ -12,6 +12,10 @@
     --primary-color: #F22233;
   }
 
+  a:hover {
+    color: var(--primary-color)!important; 
+    text-decoration: underline; 
+}
   .home{
     height: 100vh;
     padding: 10px;
@@ -24,12 +28,6 @@
   }
 
   .button-home {
-    width: 100%;
-    margin-top: 10%;
-    background-color: var(--primary-color)!important;
-  }
-
-  .button-submit {
     width: 100%;
     margin-top: 10%;
     background-color: var(--primary-color)!important;
@@ -53,24 +51,48 @@
   .catalogo{
     padding: 10px;
   }
+
+  .card{
+    cursor: pointer;
+  }
+
+  .card:hover{
+    transform: scale(1.08); 
+    transition: transform 0.2s;
+  }
   
+  
+  button:hover{
+    background-color: #ffffff!important;
+    color: var(--primary-color)!important;
+  }
 
   
-
   .btn-carrinho {
     width: 100%;
     align-self: flex-end;
     background-color: var(--primary-color)!important;
   }
 
+.restaurantes{
+  margin-top: 10vh;
+  padding: 10px;
+}
 
-  .contato{
+.contato{
     width: 100vw;
     margin-top: 80px;
     display: grid;
-    padding: 50px;
+    padding: 20px;
     
   }
+
+  .button-submit {
+    width: 100%;
+    margin-top: 10%;
+    background-color: var(--primary-color)!important;
+  }
+
   .img-suporte img{
     display: none;
   }
