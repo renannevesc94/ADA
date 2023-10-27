@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifood</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-body rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo-top.png" alt="logo-ifood" width="80" height="44">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#section-home">Home</a>
+                        <a class="nav-link" href="#section-cardapio">Cardápio</a>
+                        <a class="nav-link" href="#section-contato">Fale Conosco</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="home">
+
+            <h1 class="text-center hidden-text ">Tudo que você precisa a um click de distância.</h1>
+            <p class="text-center">Entregamos tudo o que precisa na porta da sua casa, de hortifruti a itens de limpeza
+            </p>
+
+            <div class="container-home" id="section-home">
+                <div class="">
+                    <div class="img-home">
+                        <img src="assets/images/teste.webp" alt="">
+                    </div>
+                </div>
+                <div class="">
+                    <div class="d-flex justify-content-center">
+                        <a href="#section-cardapio">
+                            <button type="button" class="btn btn-danger btn-lg button-home">Fazer meu Pedido</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="catalogo" id="section-cardapio">
+            <h3 class="text-center">Mais Vendidos</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-80 shadow">
+                        <div class="row">
+                            <div class="col me-0 pe-0 d-grid">
+                                <img src="assets/images/file-mignon.jpeg" id="ola" class="card-img-top" alt="foto-file-mignon"
+                                    width="220" height="150">
+                                <button type="button" class="btn btn-danger btn-carrinho">Eu quero
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col ps-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-danger text-center">Filé Mignon</h5>
+                                    <p class="card-text">Filé mignon tenro, suculento, com molho irresistível e
+                                        acompanhamentos sofisticados</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-80 shadow">
+                        <div class="row">
+                            <div class="col me-0 pe-0 d-grid">
+                                <img src="assets/images/capeletti.jpg" id="ola" class="card-img-top" alt="foto-prato-capeletti"
+                                    width="220" height="150">
+                                <button type="button" class="btn btn-danger btn-carrinho">Eu quero
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col ps-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-danger text-center">Capeletti ao Molho</h5>
+                                    <p class="card-text">Capeletti recheado: Sabor inigualável em cada mordida.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-80 shadow">
+                        <div class="row">
+                            <div class="col me-0 pe-0 d-grid">
+                                <img src="assets/images/caesar.jpeg" id="ola" class="card-img-top" alt="foto-salada-caesar" width="220"
+                                    height="150">
+                                <button type="button" class="btn btn-danger btn-carrinho">Eu quero
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col ps-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-danger text-center">Salada Caesar</h5>
+                                    <p class="card-text">Crocância dos vegetais, molho cremoso, sabor clássico</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-80 shadow">
+                        <div class="row">
+                            <div class="col me-0 pe-0 d-grid">
+                                <img src="assets/images/yakisoba.jpg" id="ola" class="card-img-top" alt="foto-yakisoba"
+                                    width="220" height="150">
+                                <button type="button" class="btn btn-danger btn-carrinho">Eu quero
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col ps-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-danger text-center">Yakisoba</h5>
+                                    <p class="card-text">Sabor asiático autêntico, ingredientes frescos, satisfação
+                                        garantida.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-80 shadow">
+                        <div class="row">
+                            <div class="col me-0 pe-0 d-grid">
+                                <img src="assets/images/coca.jpg" id="ola" class="card-img-top" alt="foto-coca-lata" width="220"
+                                    height="150">
+                                <button type="button" class="btn btn-danger btn-carrinho">Eu quero
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col ps-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-danger text-center">Coca Cola</h5>
+                                    <p class="card-text">Sabor refrescante e icônico em cada lata.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-80 shadow">
+                        <div class="row">
+                            <div class="col me-0 pe-0 d-grid">
+                                <img src="assets/images/hamburguer.jpeg" id="ola" class="card-img-top" alt="foto-hamburguer"
+                                    width="220" height="150">
+                                <button type="button" class="btn btn-danger btn-carrinho">Eu quero
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" fill="currentColor"
+                                        class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="col ps-0">
+                                <div class="card-body">
+                                    <h5 class="card-title text-danger text-center">Hanburguer</h5>
+                                    <p class="card-text">Suculento, delicioso e perfeito para os amantes de carne.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="restaurantes">
+            <h3 class="text-center">Top 5 Restaurantes</h3>
+
+            <table class="table table-hover table-striped table-condensed">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Descrição</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Delícias do Sabor</td>
+                        <td>Sabores inesquecíveis, doçuras do paraíso.</td>
+                        <td>5.2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Mar dos Sabores</td>
+                        <td>Frutos do mar frescos irresistíveis</td>
+                        <td>5.2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Casa do Chef</td>
+                        <td>Criatividade culinária no seu melhor</td>
+                        <td>5.2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Grelha Gourmet</td>
+                        <td>Carnes suculentas, experiência culinária única</td>
+                        <td>5.2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tradição Italiana</td>
+                        <td>Autêntica comida italiana, sabor memorável</td>
+                        <td>5.2</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </section>
+
+        <section class="contato shadow" id="section-contato">
+            <h3 class="text-center">Fale conosco</h3>
+            <div class="container-contato">
+                <div class="form">
+                    <form class="needs-validation" novalidate id="meuForm">
+                        <div class="m-3">
+                            <label for="exampleInputEmail1" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                required>
+                            <div class="invalid-feedback">
+                                Por favor informe seu nome
+                            </div>
+                        </div>
+
+                        <div class="m-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                            <div class="invalid-feedback">
+                                Informe um email válido
+                            </div>
+
+                        </div>
+                        <div class="m-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                required></textarea>
+                            <div class="invalid-feedback">
+                                Sua mensagem precisa ter entre 50 e 200 caracteres
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-danger button-submit">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="img-suporte">
+                    <img src="assets/images/logo-bottom.png" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="d-flex">
+        <img src="assets/images/ifood-logo-png-branco.png" alt="logo-ifood">
+        <p>Desenvolvido por Renan Neves</p>
+
+    </footer>
+
+
+
+
+  <!-- Modal Submit-->
+  <div class="modal fade" id="modal-submit" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modal-submit">Sua mensagem foi enviada!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Obrigado pelo contato, em breve iremos retornar!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/scipt.js"></script>
+
+</body>
+
+</html>
