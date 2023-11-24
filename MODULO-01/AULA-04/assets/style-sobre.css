@@ -1,0 +1,20 @@
+
+.aside-lateral{
+    width: 30vw;
+    height: 76vh;
+
+}
+
+.aside-lateral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+main{
+    width: 60vw;
+    margin-left: 50px;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}

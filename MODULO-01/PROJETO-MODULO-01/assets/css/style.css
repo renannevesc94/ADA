@@ -1,0 +1,195 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap');
+
+
+  *{
+    font-family: Poppins;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+
+    /*VARIAVEIS*/
+    --primary-color: #F22233;
+  }
+
+  a:hover {
+    color: var(--primary-color)!important; 
+    text-decoration: underline; 
+}
+  .home{
+    height: 100vh;
+    padding: 10px;
+    margin-bottom: -120px;
+  }
+  
+  .img-home img{
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .button-home {
+    width: 100%;
+    margin-top: 10%;
+    background-color: var(--primary-color)!important;
+  }
+
+
+  .hidden-text {
+    opacity: 0;
+    animation: appear 2.4s 1s forwards;
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .catalogo{
+    padding: 10px;
+  }
+
+  .card{
+    cursor: pointer;
+  }
+
+  .card:hover{
+    transform: scale(1.08); 
+    transition: transform 0.2s;
+  }
+  
+  
+  button:hover{
+    background-color: #ffffff!important;
+    color: var(--primary-color)!important;
+  }
+
+  
+  .btn-carrinho {
+    width: 100%;
+    align-self: flex-end;
+    background-color: var(--primary-color)!important;
+  }
+
+.restaurantes{
+  margin-top: 10vh;
+  padding: 10px;
+}
+
+.contato{
+    width: 100vw;
+    margin-top: 80px;
+    display: grid;
+    padding: 20px;
+    
+  }
+
+  .button-submit {
+    width: 100%;
+    margin-top: 10%;
+    background-color: var(--primary-color)!important;
+  }
+
+  .img-suporte img{
+    display: none;
+  }
+
+  footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    flex-direction: column;
+  }
+  
+  footer img{
+    width: 100px;
+    height: 47px;
+    
+
+  }
+
+
+
+
+@media (min-width: 1024px) {
+
+  .container-home{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+  }
+  .img-home img{
+    width: 100vh;
+    margin-top: 0;
+  }
+
+  .catalogo{
+   margin-top: 20vh;
+   height: 100vh;
+  }
+
+
+  .restaurantes{
+    padding: 50px;
+  }
+
+  .contato{
+    width: 100vw;
+    margin-top: 80px;
+    padding: 50px;
+    
+  }
+ 
+  .container-contato{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 50px;
+  }
+
+  .form{
+    width: 100%;
+    display: grid;
+    
+  }
+
+  .button-submit{
+    width: 200px;
+    height: 40px;
+    margin-left: 36%;
+    margin-top: 10px;
+    
+  }
+
+
+  .img-suporte img{
+    display: block;
+    width: 60%;
+  }
+
+ 
+  footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    flex-direction: column;
+  }
+  
+  footer img{
+    width: 100px;
+    height: 200px;
+    margin-top: 1%;
+
+  }
+
+}

@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #404258;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #537ec5;
+  box-shadow: 1px 1px 6px 1px white;
+  border-radius: 20px;
+  width: 42vw;
+  height: 40vh;
+  padding: 2%;
+  justify-content: center;
+}
+
+.find {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.find input {
+  width: 20%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+}
+
+.find button {
+  width: 29%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #dde6ed;
+  margin-left: 5px;
+}
+
+.edit-label,
+.inputs {
+  display: grid;
+  grid-template-columns: 2% 60% 10% 20%;
+  gap: 5px;
+  justify-content: center;
+  justify-items: center;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.edit button {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #dde6ed;
+  margin-left: 5px;
+}
+
+#edit-id,
+#edit-prioridade {
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  padding: 15px;
+}
+
+#edit-desc {
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  height: 30px;
+}
+
+table {
+  margin-top: 10px;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  border-bottom: 1px solid #ddd;
+  color: #ffff;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+
+.delete {
+  background-color: rgb(247, 47, 47);
+  color: #ffff;
+  margin-left: 5px;
+}
+
+.add {
+  background-color: green;
+  color: #ffff;
+}
+
+.modal {
+  width: 40%;
+  height: 20%;
+  background-color: #7b9cce;
+  box-shadow: 1px 1px 6px 1px white;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#id-tarefa,
+#prioridade-tarefa {
+  width: 6%;
+  height: 18%;
+}
+
+button[type="submit"] {
+  width: 20%;
+  align-self: center;
+  justify-self: center;
+}
+
+button:hover {
+  background-color: #404258;
+  color: #ffff;
+}

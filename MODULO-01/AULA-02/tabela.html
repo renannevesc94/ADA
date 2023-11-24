@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela em HTML</title>
+</head>
+
+<body>
+    <h2>Tabela 01</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th></th>
+                <th colspan="2">Informações</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="2">Homens</th>
+                <td>18</td>
+                <td>67kg</td>
+            </tr>
+
+            <tr>
+                <td>45</td>
+                <td>89kg</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Mulheres</th>
+                <td>31</td>
+                <td>56kg</td>
+            </tr>
+
+            <tr>
+                <td>23</td>
+                <td>56kg</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <h2>TABELA 2</h2>
+
+    <table border="2" class="tabela-2">
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Informações</th>
+            </tr>
+            <tr>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="2">Homens</th>
+                <td>18</td>
+                <td>67kg</td>
+            </tr>
+
+            <tr>
+                <td>45</td>
+                <td>89kg</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Mulheres</th>
+                <td>31</td>
+                <td>56kg</td>
+            </tr>
+
+            <tr>
+                <td>23</td>
+                <td>56kg</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+
+
+    <style>
+        .tabela-2{
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .tabela-2 th {
+            background-color: rgb(200, 200, 203);
+        }
+
+        
+
+       
+    </style>
+
+</body>
+
+</html>

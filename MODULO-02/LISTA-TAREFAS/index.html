@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <div class="find">
+                <input type="number" name="findId" id="findId" placeholder="ID">
+                <button id="getTarefa">Buscar</button>
+                <button id="addTarefa">Nova Tarefa</button>
+            </div>
+            <form class="edit" style="display: none;">
+                <div class="edit-label">
+                    <label for="">ID</label>
+                    <label for="edit-desc">Tarefa</label>
+                    <label for="edit-prioridade">Prioridade</label>
+                </div>
+                <div class="inputs">
+                    <label for="id" style="margin-right: 6px; text-align: center; margin-top: 5px;" class="id"></label>
+                    <input type="text" name="tarefa" id="edit-desc" placeholder="" style="padding: 10px;">
+                    <input type="number" name="prioridade" id="edit-prioridade" placeholder="">
+                    <button id="btnSubmmitTarefa" type="btnSubmmitTarefa">OK</button>
+
+                </div>
+
+            </form>
+            <div class="tarefa">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarefa</th>
+                            <th>Prioridade</th>
+                            <th>Ação</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="bodyTable">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        </div>
+    </main>
+
+    <script src="assets/script.js"></script>
+    <script src="assets/index.js"></script>
+</body>
+
+</html>

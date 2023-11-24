@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela de Filmes</title>
+  </head>
+
+  <body>
+    <table border="1">
+      <thead>
+        <th>Nome</th>
+        <th>Genero</th>
+        <th>Nota</th>
+        <th>Elenco</th>
+        <th>Imagem</th>
+      </thead>
+      <tbody class="bodyTable">
+        <tr>
+          <td><a href="http://">Stars Wars</a></td>
+          <td>Sci-fi</td>
+          <td>9.3</td>
+          <td>
+            <ul class="elenco">
+              <li>Mark Hemil</li>
+              <li>Harisson Ford</li>
+              <li>Carrie Fish</li>
+            </ul>
+          </td>
+          <td>
+            <img
+              src="https://br.web.img2.acsta.net/medias/nmedia/18/91/98/26/20172772.jpg"
+              alt=""
+              srcset=""
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <style>
+      img {
+        width: 100px;
+        border: 3px solid #d3d3d3;
+        border-radius: 6px;
+      }
+
+      table {
+        width: 100%;
+        background-color: #202529;
+        font-size: 18px;
+      }
+
+      .bodyTable {
+        text-align: center;
+        border: none;
+        color: #ffffff;
+      }
+
+      .elenco {
+        text-align: left;
+      }
+
+      th {
+        color: #f0ed52;
+       
+      }
+    </style>
+  </body>
+</html>
