@@ -4,4 +4,4 @@
 
 ### Obs: O código JS com a solução para o problema solicitado está em /assets/script.js
 
-#### No exemplo caso queira filtrar todos as tarefas cadastradas basta deixar o campo ID em banco
+#### No exemplo caso queira filtrar todas as tarefas cadastradas basta deixar o campo ID em banco
