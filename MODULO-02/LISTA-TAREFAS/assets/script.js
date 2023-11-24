@@ -7,7 +7,7 @@ function toDoList() {
   function listaTarefas() {
     return {
       tarefas: array,
-
+      //adicionar uma tarefa
       addTarefa: (_tarefa, _prioridade) => {
         array.push({
           id: id++,
@@ -15,7 +15,7 @@ function toDoList() {
           prioridade: _prioridade,
         });
       },
-
+      //editar uma tarefa
       editTarefa: (_id, _tarefa, _prioridade) => {
         array.forEach((element) => {
           if (element.id == _id) {
@@ -24,7 +24,7 @@ function toDoList() {
           }
         });
       },
-
+      //Apagar uma tarefa
       removeTarefa(_id) {
         array.forEach((el, ind) => {
           if (el.id == _id) {
@@ -33,6 +33,7 @@ function toDoList() {
         });
       },
 
+      //Busca tarefa com base no ID
       getTarefa: (_id) => {
         const result = array.filter((el) => {
           return el.id === _id;
@@ -41,10 +42,13 @@ function toDoList() {
         return result.length > 0 ? result : "Tarefa não localizada";
       },
 
+      //Busca todas as tarefas cadastradas e ordena por prioridade
       getAllTarefas: () => {
-        const result = array.filter((el) => {
-          return el;
-        });
+        const result = array
+          .filter((el) => {
+            return el;
+          })
+          .sort((a, b) => a.prioridade - b.prioridade);
         return result;
       },
     };

@@ -1,3 +1,4 @@
+//
 const btnGetTarefa = document.querySelector("#getTarefa");
 const inputGetTarefa = document.querySelector("#findId");
 const btnAddTarefa = document.querySelector("#addTarefa");
